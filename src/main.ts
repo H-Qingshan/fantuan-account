@@ -28,7 +28,7 @@ window.onload = function () {
 if (document.documentElement.clientWidth > 769) {
   window.alert('请使用手机或平板打开页面，以保证浏览效果！');
   const img = document.createElement('img');
-  img.src = '/account_vue_website/qrcode.png';//线上地址
+  img.src = '/fantuan-web/qrcode.png';//线上地址
   img.style.position = 'fixed';
   img.style.left = '50%';
   img.style.top = '50%';
